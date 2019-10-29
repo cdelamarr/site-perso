@@ -1,55 +1,121 @@
 
-h1{
-    background-color: green; /*titre*/
-    text-align:center;
-    font-family:"Coyote DEMO";
-    font-size: 110px;
-    color:white;
-    width:549px;
-    height:373px;
-    text-align: justify;
-}
-
-#conteneur /* <div id="conteneur">
-               <div class="rectangle"><div>
-               <h1 class="element"> Chloe Delamarre </h1>
-           </div>*/
+#titre
 {
-    background-color: #ab3e16;
-    display: flex;
-    justify-content: left;
-    align-items: left;
-
-}
-.element:nth-child(2){
-    align-self: flex-end;
+	display: flex;
+	justify-content: left;
+	background-color: #CCC;
+	/*align-items: center;*/
 }
 
-
-p{ /*tout les p*/
-    justify-content:center;
-    font-size: 20px;
-    font-family: "comfortaa";
+.rect
+{
+	width: 450px;
+	height: 850px;
+	background-color: black;
 }
 
-#anecdote{
-    background-color: #47120E;
-    margin: 1em 10em;
-    padding: 0.2em 2em 2em 1em;
-    width:536px;
-    height:374px;
-}
-.txtanecdote{
-color: white;
-text-align: justify;
-}
-.frize{     /* <img class="displayed" src="image\frizeweb.png" alt="frize chronologique">*/
-    text-align:"center";
+.titre1
+{
+	font-size: 100px;
 
+	align-self: center;
+	background-color: #19C;
 }
 
-.rectangle{/*rect noir*/
-    width:515px;
-    height:941px;
-    background:#000;
+#ligne1
+{
+	width: 100%;
+	background-color: #CCC;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin: 2em 0em 2em 0em;
+}
+
+.element
+{
+	width: 625px;
+	min-width: 307px;
+
+	height: 373px;
+	min-height: 186px;
+
+	/*padding: 10em;*/
+}
+
+.element:nth-child(1)
+{
+	border-radius: 20px 0px 0px 20px;
+	background-color: pink;
+}
+
+.element:nth-child(2)
+{
+	border-radius: 0px 20px 20px 0px;
+	background-color: #48120E;
+}
+
+#ligne2
+{
+	width: 100%;
+	height: 300px;
+	background-color: #CCC;
+
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+#ligne3
+{ 
+    width: 100%;
+	height: 300px;
+	background-color: #CCC;
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.futur
+{
+	background-color: #AA3d16;
+	border-radius: 20px 20px 0px 0px;
+	width: 1250px;
+	min-width: 307px;
+
+	height: 300px;
+	min-height: 186px;
+}
+
+#ligne4
+{
+	width: 100%;
+	background-color: #CCC;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.element4
+{
+	width: 625px;
+	min-width: 307px;
+
+	height: 373px;
+	min-height: 186px;
+
+	/*padding: 10em;*/
+}
+
+.element4:nth-child(1)
+{
+	border-radius: 0px 0px 0px 20px;
+	background-color: #48120E;
+}
+
+.element4:nth-child(2)
+{
+	border-radius: 0px 0px 20px 0px;
+	background-color: #14B;
 }

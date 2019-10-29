@@ -1,0 +1,15 @@
+#basedelagrille{
+    display: grid;
+    /* configuration de la grille en 1 colonnes */
+    grid-auto-rows: 200px
+}
+
+/* positionnement du titre pour occuper toute une ligne */
+
+#titre{
+    grid-column: 1/4;
+}
+
+/* positionnement des tuiles en 3x3 */
+
+grid-template-columns: repeat(3, 1fr)

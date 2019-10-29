@@ -1,0 +1,26 @@
+header#titre >h1{
+    text-align: center;
+}
+
+div.col1{
+    background-color:red;
+}
+
+div.col2{
+    background-color: 5px solid orange;
+}
+
+div.col3{
+    background-color: red;
+}
+
+div.ligne1{
+    border: 5px solid green;
+}
+
+div.ligne2{
+    border: 5px solid pink;
+}
+
+div.ligne3{
+    border: 5px solid red;

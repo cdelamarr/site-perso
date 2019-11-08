@@ -1,6 +1,7 @@
 .cont
 {
 	background-color: #F8F2E6;
+	display: flex;
 }
 
 #titre
@@ -8,7 +9,7 @@
     text-align:center;
 	display: flex;
 	font-family:Cinematografica;
-	font size:240em;
+	font-size:240pt;
 	color: #F5EEE8;
 	text-decoration: underline;
 }
@@ -23,7 +24,6 @@ p
 	width: 100%;
 	height: 907px;
 	background-color: #975030;
-	display:;
 }
 
 
@@ -32,7 +32,7 @@ p
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	display: flex;
+	
 }
 
 .element
@@ -67,7 +67,6 @@ p
 
 	justify-content: center;
 	align-items: center;
-	display: flex ;
 	padding: 2em;
 }
 
@@ -75,7 +74,6 @@ p
 { 
     width: 100%;
 	height: 300px;
-	display:flex;
     justify-content: center;
     align-items: center;
     color:white;
@@ -101,7 +99,6 @@ p
 	width: 100%;
 	justify-content: center;
 	align-items: center;
-	display: flex;
 }
 
 .element4

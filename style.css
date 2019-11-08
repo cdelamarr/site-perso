@@ -19,7 +19,7 @@ p
 	width: 450px;
 	height: 850px;
 	background-color: black;
-	/*display:;*/
+	display:;
 }
 
 .titre1
@@ -72,7 +72,7 @@ p
 
 	justify-content: center;
 	align-items: center;
-	display: flex;
+	display: flex ;
 	padding: 2em;
 }
 

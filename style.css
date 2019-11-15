@@ -1,7 +1,7 @@
 
 .cont
 {
-	background-color: #000000;/*#F5EEE8*/
+	background-color: #48120E;/*#F5EEE8*/
 	justify-content: space-around;
 }
 p
@@ -67,7 +67,6 @@ height: 100%;
 
     flex-wrap: wrap;
 	width: 100%;
-	/*justify-content: center;*/
 	align-items: center;
 	
 }
@@ -80,7 +79,7 @@ height: 100%;
 	width: 512px;
 	min-width: 307px;
 
-	height: 320px;
+	height: 250px;
 	min-height: 186px;
 	padding: 2em;
 }
@@ -100,6 +99,8 @@ height: 100%;
 	background-color:#53641c;
 	color:white;
 }
+
+
 
 #ligne2
 {
@@ -125,7 +126,7 @@ height: 100%;
 .futur
 {
 	
-	background-color:#F5EEE8;
+	background-color:#581353;
 	border-radius: 20px 20px 0px 0px;
 	width: 1250px;
 	min-width: 307px;
